@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(rgb(87, 189, 210),rgb(3, 28, 41)) ;
+    background-image: url(https://img.freepik.com/free-photo/sheet-paper-pen-with-blue-background_53876-41374.jpg
+    );
+    
+}
+
+.container {
+    background: linear-gradient(to right, rgb(49, 153, 177), rgba(169, 166, 169, 0.943));
+    width: 350px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 15px 15px rgba(37, 43, 49, 0.913);
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #313030;
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px rgba(5, 43, 63, 0.97);
+}
+
+h1 span {
+    font-size: 1.5em;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #052432b4;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #11323d; 
+    color: rgb(220, 218, 218);
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #86dc7e; 
+}
+
+#message {
+    font-size: 14px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #aee6e69a;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+li span {
+    font-size: 16px;
+    color: #091d41;
+    flex-grow: 1;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.edit-btn:hover {
+    color: #144563; 
+}
+
+.delete-btn:hover {
+    color: #ff4d4d;
+}
